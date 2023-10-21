@@ -1,0 +1,84 @@
+body {
+    color: #163152;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FDFDFF;
+}
+
+.main-navigation-item a {
+    color: #163152;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-page-header {
+    font-size: 44px;
+    font-style: italic;
+    line-height: 60px;
+    font-weight: normal;
+}
+
+.publication-date {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.blue-underline {
+    text-decoration: underline;
+    text-decoration-color: #00C6BD;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.contacts-item {
+    line-height: 22px; 
+}
+
+.contacts-item a{  
+    font-size: 16px;
+    line-height: 22px; 
+    color: #163152;
+    font-style: normal;
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts-item h3{
+    font-size: 16px;  
+    line-height: 22px;
+}
+
+.privacy-policy{
+    color: #163152;
+    font-size: 10px;
+    line-height: 12px;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.footer-navigation-item h2 {
+    font-size: 14px;
+    line-height: 18px; 
+    text-transform: uppercase;
+}
+
+.footer-navigation-item a{
+    color: #163152;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+}
