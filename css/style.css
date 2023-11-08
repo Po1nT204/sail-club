@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     background-color: #FDFDFF;
+    margin:0;
 }
 
 .main-navigation-item a {
@@ -128,4 +129,159 @@ address {
     font-size: 14px;
     line-height: 16px;
     text-decoration: none;
+}
+
+/* Сетки шапки */
+
+.main-header{
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 20px 55px;
+
+}
+
+.main-nav{
+    margin: 0;
+    display: flex;
+}
+
+.main-nav .logo{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 471px;
+}
+
+.main-navigation-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 559px;
+    margin-right: 40px;
+}
+
+.profile{
+    margin: 0;
+    margin-left: auto;  
+    width: 36px;
+}
+
+/* Сетки основы страницы */
+
+.main-content{
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.main-page-header{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.hero{
+    margin-bottom: 120px;
+}
+
+.article{
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-second{
+    flex-direction: row-reverse;
+    margin-bottom: 120px;
+}
+
+.article-content-column{
+    width: 400px;
+}
+
+.news{
+    width: 770px;
+    margin: 0px auto;
+    margin-bottom: 110px;
+}
+
+.news-header{
+    margin-top: 0;
+    margin-bottom:55px;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+.article-header{
+    margin-top:33px;
+}
+
+.contacts{
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.contact-content-column h2{
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.contact-content-column{
+    width: 400px;
+}
+
+.map{
+    width: 670px;
+}
+
+/* Сетки подвала */
+
+.main-footer{
+    margin-top: 120px;
+    padding-top: 60px;  
+    padding-bottom: 60px;
+}
+
+.footer-nav{
+    width: 1170px;
+    margin: 0 auto;
+    display:flex;
+    padding:0 55px;
+}
+
+.footer-content-column{
+    width: 175px;
+    margin-right: 125px;
+}
+
+.footer-navigation{
+    width: 870px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navigation-topics{
+    width: 165px;
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topic-header{
+    margin-top: 0;
 }
