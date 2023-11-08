@@ -205,7 +205,7 @@ address {
 .news{
     width: 770px;
     margin: 0px auto;
-    margin-bottom: 110px;
+    margin-bottom: 120px;
 }
 
 .news-header{
@@ -284,4 +284,41 @@ figure{
 
 .topic-header{
     margin-top: 0;
+}
+
+/*  */
+.gallery{
+    width: 1170px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 120px;
+}
+.gallery-header{
+    font-size: 24px;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.gallery-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.preview-list{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.preview-list-item{
+    margin-bottom: 30px;
+}
+
+.preview-list-item:last-child{
+    margin-bottom: 0;
 }
