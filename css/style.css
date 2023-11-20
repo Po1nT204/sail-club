@@ -228,6 +228,7 @@ figure{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: center;
 }
 
 .contact-content-column h2{
@@ -286,7 +287,7 @@ figure{
     margin-top: 0;
 }
 
-/*  */
+/* Блок галлереи с нуля */
 .gallery{
     width: 1170px;
     margin: 0;
@@ -309,16 +310,144 @@ figure{
 }
 
 .preview-list{
+    display: flex;
+    flex-direction: column;
     margin:0;
     padding: 0;
     list-style: none;
-    justify-content: space-between;
+    gap: 30px;
 }
 
-.preview-list-item{
-    margin-bottom: 30px;
+
+/* Конец верстки */
+
+.main-navigation-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
 }
 
-.preview-list-item:last-child{
-    margin-bottom: 0;
+.main-navigation-item:hover{
+    opacity: 0.5;
+}
+
+.main-navigation-item:active{
+    opacity: 0.3;
+}
+
+.profile{
+    align-self: center;
+}
+
+.profile:hover{
+    opacity: 0.5;
+}
+.profile:active{
+    opacity: 0.3;
+}
+
+.main-page-header{
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+.hero img{
+    display: block;
+}
+
+.article-second .article-content-column{
+    text-align: end;
+}
+
+.gallery-photo-big{
+    display: block;
+}
+
+.preview-list a {
+    position: relative;
+    display: block;
+}
+
+.preview-list a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(253, 253, 255, 0.50);
+}
+
+.preview-list a.active::before{
+    background-color: transparent;
+}
+
+.preview-list-item img{
+    display: block;
+}
+
+.participants{
+    margin-bottom: 15px;
+}
+
+.participants-list{
+    margin: 0;
+    padding: 0;
+    margin-left: 18px;
+}
+
+.participants-list-item{
+    margin-bottom: 8px;
+}
+
+.participants-list-item:last-child{
+    margin-bottom: 0px;
+}
+
+.news-author-info{
+    display: flex;
+    align-items: center;
+}
+
+.news-author-info img{
+    margin-right: 15px;
+}
+
+.share{
+    margin-left: auto;
+}
+
+.share:hover{
+    opacity: 0.5;
+}
+.share:active{
+    opacity: 0.3;
+}
+
+.contacts-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts-item{
+    display: flex;
+    align-items: baseline;
+}
+
+.contacts-item:last-child{
+    display:unset;
+}
+
+.social-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contacts-item h3{
+    margin-top: 0;
+    margin-right: 10px;
 }
