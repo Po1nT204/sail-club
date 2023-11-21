@@ -451,3 +451,85 @@ figure{
     margin-top: 0;
     margin-right: 10px;
 }
+
+/* Добавление секции с арендой яхт */
+.rent{
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.rent-header{
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.ships-rent-list{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.ships-rent-item{
+    width: 310px;
+    padding: 30px;
+    background: #FDFDFF;
+    box-shadow: 0px 4px 30px 0px rgba(22, 49, 82, 0.12);
+}
+
+.ship-rent-img{
+    display: block;
+}
+
+.ship-rent-name{
+    margin-top: 0;
+    margin-top: 21px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.description{
+    font-size: 14px;
+    line-height: 24px;
+
+    margin-bottom: 15px;
+}
+
+.description-list{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 19px;
+
+    margin: 0;
+    margin-left: 18px;
+    margin-bottom: 29px;
+    padding: 0;
+
+    
+}
+
+.description-item{
+    margin-bottom: 4px;
+}
+
+.description-item:last-child{
+    margin-bottom: 0;
+}
+
+.price{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
